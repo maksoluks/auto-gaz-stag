@@ -83,14 +83,15 @@ export function SiteHeader() {
         <div className="border-t border-border bg-background lg:hidden">
           <nav className="mx-auto flex max-w-7xl flex-col gap-1 px-4 py-3">
             {navItems.map((n) => (
-              <a
+              <Link
                 key={n.id}
-                href={`#${n.id}`}
+                to="/"
+                hash={n.id}
                 onClick={() => setOpen(false)}
                 className="rounded-md px-3 py-2 text-sm font-medium text-foreground hover:bg-muted"
               >
                 {t(n.key)}
-              </a>
+              </Link>
             ))}
             <div className="mt-2 flex items-center gap-1 rounded-full border border-border bg-muted/50 p-1 text-xs font-semibold sm:hidden">
               <button
