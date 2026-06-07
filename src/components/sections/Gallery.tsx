@@ -4,12 +4,15 @@ import car from "@/assets/gallery-car1.jpg";
 import tank from "@/assets/gallery-tank.jpg";
 import suv from "@/assets/gallery-suv.jpg";
 import mechanic from "@/assets/gallery-mechanic.jpg";
+import { BrandCarousel } from "./BrandCarousel";
 
 export function Gallery() {
   const { t } = useI18n();
   return (
     <section id="galeria" className="border-t border-border bg-muted/30 py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <BrandCarousel />
+
         <div className="max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-wider text-primary">{t("gallery.eyebrow")}</span>
           <h2 className="mt-3 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">{t("gallery.title")}</h2>
