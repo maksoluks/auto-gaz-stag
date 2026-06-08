@@ -42,6 +42,7 @@ const dict = {
     "gallery.title": "Czysto, estetycznie, na lata.",
     "brands.title": "Wybierz markę swojego samochodu",
     "brands.subtitle": "Montujemy instalacje LPG w samochodach każdej marki — od klasyków po nowoczesne silniki bezpośredniego wtrysku.",
+    "brands.viewLabel": "Zobacz realizacje dla marki",
 
     "reviews.eyebrow": "Opinie Google",
     "reviews.title": "Nasza ocena to 4.9 / 5",
@@ -101,6 +102,7 @@ const dict = {
     "gallery.title": "Clean, tidy, built to last.",
     "brands.title": "Choose your car brand",
     "brands.subtitle": "We fit LPG systems in cars of every make — from classics to modern direct-injection engines.",
+    "brands.viewLabel": "See work for brand",
 
     "reviews.eyebrow": "Google Reviews",
     "reviews.title": "Our rating is 4.9 / 5",
