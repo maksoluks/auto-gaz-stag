@@ -32,7 +32,14 @@ export function BrandCarousel() {
         <ul className="flex gap-4 sm:grid sm:grid-cols-4 lg:grid-cols-6">
           {BRANDS.map((b) => (
             <li key={b.slug} className="shrink-0">
-              <div
+              <a
+                href="#galeria"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const el = document.getElementById("galeria");
+                  el?.scrollIntoView({ behavior: "smooth" });
+                }}
+                aria-label={`${t("brands.viewLabel")} ${b.name}`}
                 className="group flex h-28 w-32 flex-col items-center justify-center gap-2 rounded-2xl border border-border bg-card p-4 transition-all duration-300 hover:-translate-y-0.5 hover:border-primary hover:shadow-[0_10px_30px_-10px_color-mix(in_oklab,var(--primary)_45%,transparent)] sm:h-32 sm:w-full"
               >
                 <img
@@ -44,7 +51,7 @@ export function BrandCarousel() {
                 <span className="text-xs font-medium tracking-wide text-muted-foreground transition-colors group-hover:text-foreground">
                   {b.name}
                 </span>
-              </div>
+              </a>
             </li>
           ))}
         </ul>
