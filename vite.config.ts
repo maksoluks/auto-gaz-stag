@@ -4,9 +4,11 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  // Przywracamy ścieżkę pod GitHub Pages:
+  base: '/auto-gaz-stag/',
   resolve: {
     alias: {
-      // Przechwytuje import serwerowy i podmienia go na bezpieczną dla przeglądarki klasę
+      // Przechwytuje błąd serwerowy i podmienia go na pustą klasę
       'node:async_hooks': path.resolve(__dirname, './mock-async-hooks.js'),
     },
   },
