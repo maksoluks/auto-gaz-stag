@@ -27,13 +27,13 @@ export type Brand = {
 
 // Wszystkie logo w src/assets/brand-logos/
 const logoModules = import.meta.glob(
-  "@/assets/brand-logos/*.{svg,png,webp,jpg,jpeg,avif}",
+  "../assets/brand-logos/*.{svg,png,webp,jpg,jpeg,avif}",
   { eager: true, import: "default", query: "?url" },
 ) as Record<string, string>;
 
 // Wszystkie zdjęcia w src/assets/brands/{slug}/*
 const photoModules = import.meta.glob(
-  "@/assets/brands/*/*.{webp,jpg,jpeg,png,avif}",
+  "../assets/brands/*/*.{webp,jpg,jpeg,png,avif}",
   { eager: true, import: "default" },
 ) as Record<string, string>;
 
