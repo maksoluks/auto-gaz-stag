@@ -88,38 +88,55 @@ function PrivacyPL() {
   );
 }
 
+ 
+
 function PrivacyEN() {
   return (
     <>
-      <h2 className="text-xl font-semibold">1. Data controller</h2>
+      <h2 className="text-xl font-semibold">1. Data Controller</h2>
       <p>
-        The data controller is STAG Mechanika Rogowski, DW809 56A, 21-002 Jastków, Poland, phone
-        +48 609 258 834.
+        The controller of your personal data is Auto Gaz Adam Rogowski, based in Snopków 56A, 21-002 Jastków Poland contact with Administrator is available: e-mail: adam.rogowski.net@gmail.com or  +48 609258834.
       </p>
-      <h2 className="text-xl font-semibold">2. Scope of processed data</h2>
+      <h2 className="text-xl font-semibold">2. Purposes and Legal Bases for Processing</h2>
       <p>
-        We only process data necessary to provide LPG installation and service — including name,
-        phone number, vehicle data, and information required by homologation and tax regulations.
+        Your data will be processed for the purpose of:
       </p>
-      <h2 className="text-xl font-semibold">3. Purpose and legal basis</h2>
       <p>
-        Data is processed under Art. 6(1)(b) and (c) GDPR — performance of contract and compliance
-        with legal obligations of the controller.
+        providing service maintenance, LPG installation, and issuing the necessary documentation (legal basis: Art. 6(1)(b) GDPR – performance of a contract);
       </p>
-      <h2 className="text-xl font-semibold">4. Retention</h2>
-      <p>Data is kept for the time required to deliver the service and as required by applicable law.</p>
-      <h2 className="text-xl font-semibold">5. Your rights</h2>
       <p>
-        You have the right to access, rectify, erase, restrict processing, portability, and to lodge
-        a complaint with the supervisory authority.
+        complying with legal obligations binding the Controller, such as issuing invoices and retaining accounting documentation (legal basis: Art. 6(1)(c) GDPR);
       </p>
+      <p>
+        establishing, exercising, or defending potential legal claims (legal basis: Art. 6(1)(f) GDPR – legitimate interest).
+      </p>
+      <h2 className="text-xl font-semibold">3. Data Retention Period</h2>
+      <p>
+        Data will be stored for the period necessary to perform the service, and after
+        its completion, for the period required by tax law (5 years)
+        or until the expiration of the statute of limitations for potential claims.
+      </p>
+      <h2 className="text-xl font-semibold">4. Data Recipients</h2>
+      <p>
+        Recipients of your data may include entities authorized to obtain data
+        under applicable law, accounting firms, courier companies, and technical
+        software providers necessary to service gas installations.
+      </p>
+      <h2 className="text-xl font-semibold">5. Data Subject Rights</h2>
+      <p>
+        You have the right to:
+      </p>
+      <p>access your personal data and receive a copy of it;</p>
+      <p>request erasure of data or restriction of processing;</p>
+      <p>object to data processing;</p>
+      <p>lodge a complaint with the Supervisory Authority – President of the Personal Data Protection Office.</p>
       <h2 className="text-xl font-semibold">6. Cookies</h2>
       <p>
-        The website uses only strictly necessary cookies (language and theme preferences) and the
-        embedded Google Maps service. We do not use cookies for marketing profiling.
+        The website uses only strictly necessary cookies (language and theme preferences)
+        and an embedded Google Maps service. We do not use cookies for marketing profiling.
       </p>
-      <h2 className="text-xl font-semibold">7. Contact</h2>
-      <p>For any data-related matters, please reach out by phone or in person at the workshop.</p>
+      <h2 className="text-xl font-semibold">7. Voluntariness of Providing Data</h2>
+      <p> Providing personal data (such as name, vehicle registration number, phone number) is voluntary, but necessary to accept the vehicle into the service shop and perform the service.</p>
     </>
   );
 }
